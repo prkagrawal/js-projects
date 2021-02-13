@@ -1,0 +1,103 @@
+.accordion {
+    background-color: #2F4050;
+    color: #fff;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: 1px solid #fff;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+.accordion.active,
+.accordion:hover {
+    background: #011121;
+}
+/* #panel, #panel1, #panel2, #panel3, #flip, #flip1, #flip2, #flip3 {
+    padding: 5px;
+	color:#FFF;
+    text-align: center;
+    background-color: #2F4050;
+    border: solid 1px #ccc;
+	}
+
+	#panel, #panel1, #panel2, #panel3 {
+		padding: 20px;
+		display: none;
+	} */
+	div.panel {
+    padding: 5px 18px;
+    background-color: #293744;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.6 ease-in-out;
+    opacity: 0;
+	color:white;
+	text-align:center;
+}
+
+div.panel.show {
+    opacity: 1;
+    max-height: 500px;
+}
+
+div.column {
+    float: left;
+    width: 300px;
+}
+	.ItextBox{
+	width:80%;
+	}
+	.jumbotron{
+		background-color:#293744;
+		padding:2rem 2rem;
+	}
+	.inner-addon {
+  position: relative;
+}
+
+/* style glyph */
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+/* align glyph */
+.left-addon .glyphicon  { left:  0px;}
+.right-addon .glyphicon { right: 0px;}
+
+/* add padding  */
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
+
+li{
+	text-align:left;
+}
+.col-sm-6{
+	text-align:left;
+}
+.right-addon .glyphicon {
+    right: 0px;
+}
+<style>…</style>
+.inner-addon .glyphicon {
+    position: absolute;
+    pointer-events: none;
+    padding: 10px;
+}
+.glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+#wordofday{
+	font-size:30px;
+	padding:10px 0px;
+}
